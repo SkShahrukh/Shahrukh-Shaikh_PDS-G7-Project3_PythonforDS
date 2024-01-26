@@ -11,7 +11,7 @@ app.app_context().push()
 model = pickle.load(open('model.pkl', 'rb'))
 
 pymysql.install_as_MySQLdb()
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:userroot@localhost/loan_prediction'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:KrsmSk123@localhost/loan_prediction'
 
 db = SQLAlchemy(app)
 
